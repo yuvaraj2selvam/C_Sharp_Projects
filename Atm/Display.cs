@@ -9,10 +9,8 @@ namespace Atm
     internal class Display
     {
         public Display() {
-          
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n\n \t\t\t\t\t ATM");
-            Program.accounts.Add(new account("yuvaraj", "123456", 10000));
             Console.Write("Enter Account Number :");
             string account_number = Console.ReadLine();
             Console.Write("Enter Pin Number :");

@@ -18,13 +18,13 @@ namespace Atm
                     Console.WriteLine("Press Enter");
                     Console.Read();
                     Console.Clear();
-                    Console.WriteLine(obj.Accountname);
-                    Console.WriteLine(obj.Balance);
+                    new Details(obj);
                 }
                 else
                 {
                     Console.Clear ();
                     Console.WriteLine("Login Failed ,please try Again");
+                    Console.Clear();
                     new Display();
                 }
             }

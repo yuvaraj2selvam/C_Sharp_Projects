@@ -41,8 +41,8 @@ namespace Atm
             this.balance = bal;
 
             Console.WriteLine("Your Account number :{0}", Accountnumber);
+            Console.Clear();
+            new Display();
         }
-
-       
     }
 }
